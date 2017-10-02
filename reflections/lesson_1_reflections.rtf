@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8020\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. How did viewing a difference between two versions help finding the bug?\
+\
+- I didn\'92t have to go line by line through the code to find the bug, I saved a lot of time by only looking in the places that changed.\
+\
+- I could remember what I changed.  If I didn\'92t remember what I changed, and it wasn\'92t a typo, I might have never found the error.\
+\
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?\
+\
+- If you need to see how something used to work, you don\'92t have to manually make all the changes back to the beginning.  You can just restore to the original version, or the last version where things worked.\
+\
+3. What do you think are the pros and ons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saves, like Google Docs does?\
+\
+- When you check in, and write a comment, you want to know exactly what you\'92re checking in.  If check-ins were happening automatically, it would be hard to add a comment that was relevant\
+\
+- Sometimes you do a lot of coding in an hour, or sometimes barely any in a whole day.  If check-ins happened regularly, it would be hard to control if they were too big or too small.\
+\
+4. Why do you think some version control systems, like git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately\
+\
+- This is just because, when writing code, files depend on one another.  So if you want to go back to the last time your program was running as expected, you want to go back to the last time all files together made the program work.  That means you need to be able to rewind the work on all the files.\
+\
+5. How can you use the commands git log and git diff to view the history of files?\
+\
+ - First, use \'93git log\'94 to see the log of all the changes\
+\
+- To see the changes in a certain change set, type \'93git diff\'94 followed by two change set ID\'92s\
+\
+- NOTE: change sets are in reverse chronological order! So if you want to see the changes in one change set, compare the ID for that change set to the ID of the one below it.\
+\
+6. How might using version control make you more confident to make changes that could break something?\
+\
+- Simply put, you know that if you do break something, you can just go back to the previous version.  Therefore, you\'92re free to try changing things without fear of making a mistake, since it can always be undone.\
+\
+7. Now that you have your workspace set up, what do you want to try using Git for?\
+\
+- Writing code! I want to start a software project and share it with friends.}
