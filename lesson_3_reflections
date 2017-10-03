@@ -1,0 +1,5 @@
+When would you want to use a remote repository, rather than keeping all your work local?
+
+This is probably so that other people can pull down your code, and you can pull down other people's code, and stay curent.
+If you and a friend each just worked locally, there may be a lot of problems and a lot of merging to be done if you weren't sharing
+the whole time.
